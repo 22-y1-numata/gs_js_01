@@ -1,0 +1,426 @@
+/* ここから下に記載していく */
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.header__nav {
+    display: flex;
+    font-size: 21px;
+}
+
+.header__nav li {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* mainvisual */
+.mainvisual {
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtitle {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Aboutエリア */
+.about {
+    text-align: center;
+    margin: 60px ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+
+.about__subtitle {
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.about__text {
+    margin-bottom: 40px;
+    text-align: center;
+    line-height:25px;
+    font-size: 16px;
+
+}
+
+/* imgBox */
+.imgBox {
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 60px;
+}
+/* 100%と25％の設定の意図が分からない */
+.imgBox p {
+    width: 25%;
+}
+
+.imgBox p img {
+    width: 100%;
+}
+
+/* course */
+.course {
+    margin: 60px 0px;
+}
+
+.course__title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.course__text {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+    margin-bottom: 60px
+}
+
+.course__box {
+    margin-top: 60px;
+    background-color: #fafafa;
+}
+
+.course__inner {
+    display: flex;
+}
+
+.course__content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.course__content__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.course__content img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.content__title {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content__text {
+    width: 100%;
+    font-size: 16px;
+}
+
+.content__left {
+    width: 480px;
+    margin-left: 50px;
+}
+
+.content__right {
+    width: 480px;
+    margin-right: 50px;
+
+}
+
+
+
+/* News */
+.news {
+  text-align: center;
+  margin: 60px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd61a;
+  margin-bottom: 30px;
+}
+
+.news__subtitle {
+  text-align: center;
+  line-height:18px;
+}
+
+
+/* Newsホバー */
+.flex__container {
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+
+.img_wrap {
+  border: 1px solid #ddd;
+  width: 300px;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.news_date { 
+  text-align: left;
+  margin-top: 30px;
+}
+
+.news_text { 
+  text-align: left;
+  margin-top: 24px;
+  line-height:25px;
+}
+
+
+
+
+/* Moreホバー */
+.btn_more{
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #ffd61a;
+  line-height: 3.5;
+  transition: all .2s;
+  
+}
+
+
+/* アクセス */
+.access__box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #fafafa;
+  padding: 60px;
+
+}
+
+.access__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.access__subtitle {
+  text-align: center;
+  line-height:18px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.widthMax { 
+  margin: 0 calc(50% - 50vw);
+  margin-bottom: 45px;
+}
+
+
+/* info */
+.info {
+  width: 40%;
+  margin-left: 40%;
+  margin-right: 60%;
+  font-size: 16px;
+  }
+  
+  .info th,
+  .info td {
+  padding: 15px;
+  text-align: left;
+
+  }
+  
+  .info th {
+  text-align: left;
+  }
+  
+  @media screen and (max-width: 767px) {
+  .info,
+  .info tr,
+  .info td,
+  .info th {display:block;}
+  .info th {width:auto;}
+  }
+
+/* コンタクト */
+.contact {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact__subtitle {
+  margin-bottom:45px;
+  font-size: 18px;
+}
+
+.contact__text {
+  padding: 15px;
+  text-align: center;
+  line-height:25px;
+  font-size: 16px;
+}
+
+/* contact_text後に15px分の余白アリ */
+
+/* 入力フォーム */
+
+.contact-table {
+  width:628px; height:36px; 
+  border-right: solid white;
+  border-left: solid white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.contact-item,
+.contact-body {
+    padding: 8px;
+}
+
+.contact-item {
+    text-align: left;
+    width: 240px;
+    border: solid;
+    border-color: darkgrey;
+    border-left: floralwhite;
+    vertical-align: top;
+
+}
+
+.contact-body {
+    width: 400px;
+    border: solid;
+    border-color: darkgrey;
+    border-right: floralwhite;
+    
+}
+.form-text{
+  width: 328px;
+  height: 36px;
+
+}
+
+
+/* .contact-motivation-txt
+padding-left:30px; */
+
+.form-textarea-detail{
+  width: 328px;
+  height: 100px;
+  
+
+}
+
+.contact-motivation {
+  line-height:24px;
+}
+
+.contact-item-kikkake {
+  line-height:24px;
+  padding-right:64px; 
+  height: 64px;
+}
+
+
+/* 送信ホバー */
+.btn_send{
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #ffd61a;
+  line-height: 3.5;
+  transition: all .2s;
+  
+  margin-bottom: 140px
+}
+
+/* コピーライト */
+.copylight__box {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #707070;
+  padding: 30px;
+}
+
+.copylight {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+
